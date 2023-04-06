@@ -7,6 +7,7 @@ import "swiper/css"
 import "swiper/css/pagination"
 import "swiper/css/autoplay"
 import Footer  from '@/components/Footer';
+import Image from "next/image";
 const skills = () => {
     const skillImage=[{
         id:1,
@@ -100,7 +101,7 @@ const displaySkill=skillImage.map((item)=>(
         <div className=" font-bold text-xl">
             {item.label}
         </div>
-       <img src={item.icon} alt={item.label} className="w-80"/>
+       <Image src={item.icon} alt={item.label} className="w-80"/>
     </div>
       
    </SwiperSlide>

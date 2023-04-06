@@ -20,6 +20,7 @@ const page= () => {
         <Image height={256}
         width={256}
         src="/assets/images/webpic.png"
+        alt='picture of levis'
         className='mx-auto h-64 sm:h-72 w-64 sm:w-72 lg:w-96 lg:h-96 rounded-full  '/>
         </div>
         <div className='w-full p-11 flex flex-col items-center space-y-5 lg:order-first lg:p-0 lg:items-start lg:w-[460px] ' >
