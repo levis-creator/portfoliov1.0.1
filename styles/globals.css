@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
+  margin: 0;
+  color: white !important;
+  font-family: 'Lato', sans-serif;
+  background-color: black;
+  min-height: 100vh;
+  width: 100% !important;
+  overflow-x: hidden;
+}
+#homeCarousel .swiper-wrapper{
+  width: fit-content;
+
+}
+#homeCarousel .swiper-slide{
+  margin-top: 40px ;
+}
+#homeCarousel .swiper-pagination-bullet{
+ background-color: #807b7b !important;
+}
+#homeCarousel .swiper-pagination-bullet-active{
+  background-color: #FEFEFE !important;
+}
+.button{
+ background-color:  #1523A3;
+ padding-inline: 30px;
+ padding-block: 8px;
+ border-radius: 10px;
+}
+.custom-width{
+  min-width:384px;
+}
+
+
+.css-1ka5eyc-MuiPaper-root-MuiMenu-paper-MuiPopover-paper {
+  /* background-color: #fff; */
+  background-color: #151515;
+  color: #FEFEFE;
+}
